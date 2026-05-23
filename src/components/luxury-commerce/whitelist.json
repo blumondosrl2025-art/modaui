@@ -1,0 +1,145 @@
+{
+  "version": "1.0.0",
+  "components": [
+    {
+      "id": "cinematic-hero",
+      "name": "电影级品牌宣言",
+      "tier": "ultra",
+      "silenceRatio": 0.85,
+      "allowedThemes": ["dark-monastic", "minimal-stone", "editorial-black"],
+      "materialLanguage": ["smoked-glass", "matte-black"],
+      "mobileOptimized": true,
+      "aestheticScore": 95
+    },
+    {
+      "id": "editorial-product-grid",
+      "name": "编辑级产品网格",
+      "tier": "editorial",
+      "silenceRatio": 0.75,
+      "densityControl": "adaptive",
+      "imageAspectRatios": ["1:1", "4:5", "16:9"],
+      "gridPatterns": ["asymmetric", "modular", "fluid"]
+    },
+    {
+      "id": "museum-product-card",
+      "name": "博物馆级产品卡片",
+      "tier": "ultra",
+      "silenceRatio": 0.9,
+      "shadowDepth": 0,
+      "borderTreatment": "none",
+      "hoverEffect": "subtle-scale"
+    },
+    {
+      "id": "luxury-brand-manifesto",
+      "name": "奢侈品牌宣言区",
+      "tier": "premium",
+      "typographyScale": 1.25,
+      "letterSpacing": 0.08,
+      "maxLineLength": 65
+    },
+    {
+      "id": "ritual-checkout",
+      "name": "仪式感结算流程",
+      "tier": "ultra",
+      "steps": ["intention", "selection", "commitment", "completion"],
+      "transitionSpeed": 800,
+      "hapticFeedback": true
+    },
+    {
+      "id": "silent-cart",
+      "name": "静默购物车",
+      "tier": "premium",
+      "visibility": "discreet",
+      "animation": "slide-from-right",
+      "maxItemsBeforeScroll": 3
+    },
+    {
+      "id": "material-story-section",
+      "name": "材质故事展示区",
+      "tier": "editorial",
+      "materialFocus": true,
+      "textureOverlay": true,
+      "lightingSimulation": true
+    },
+    {
+      "id": "spatial-gallery",
+      "name": "空间感画廊",
+      "tier": "ultra",
+      "parallaxDepth": 3,
+      "scrollResistance": 0.3,
+      "focalPointControl": true
+    },
+    {
+      "id": "immersive-lookbook",
+      "name": "沉浸式型录",
+      "tier": "premium",
+      "transitionType": "crossfade",
+      "audioSupport": true,
+      "fullscreenBehavior": "theatrical"
+    },
+    {
+      "id": "ambient-footer",
+      "name": "环境感页脚",
+      "tier": "editorial",
+      "informationDensity": 0.3,
+      "socialPresence": "minimal",
+      "newsletterIntegration": "discreet"
+    },
+    {
+      "id": "ambient-ai-concierge",
+      "name": "环境AI管家",
+      "tier": "premium",
+      "description": "一个克制的、材质化的AI交互触点，提供品牌叙事解读、产品策展与个性化购物引导。",
+      "visualPresence": "minimal",
+      "allowedPositions": ["bottom-right", "bottom-left", "edge-right"],
+      "activationTriggers": ["scroll-70", "product-hover-3000ms", "intent-signal"],
+      "forbiddenBehaviors": ["auto-popup", "sound-effects", "blocking-overlay"]
+    },
+    {
+      "id": "wholesale-archive",
+      "name": "高奢批发档案馆",
+      "tier": "premium",
+      "description": "展示数千SKU的博物馆式优雅网格，具备大容量响应、微观气泡选入和极致阴翳留白。",
+      "densityMultiplier": 1.2,
+      "layoutPatterns": ["modular-dense", "asymmetric-archive"]
+    },
+    {
+      "id": "fabric-library",
+      "name": "面料/皮质物理图书馆",
+      "tier": "ultra",
+      "description": "专为高奢服装和皮革手袋面料打造的触觉物理图书馆，展示经纬编织、皮质油蜡与斜折折痕物理动态。",
+      "materialsFocus": ["cashmere", "box-calf", "satin-silk", "shearling"]
+    },
+    {
+      "id": "collection-gallery",
+      "name": "高级服装系列馆展",
+      "tier": "premium",
+      "description": "按春/夏、秋/冬或成衣大秀成套展示，融合超长画幅与分立时间轴拉力过渡。"
+    },
+    {
+      "id": "wholesaler-portal",
+      "name": "贵宾批发门户",
+      "tier": "ultra",
+      "description": "B端商业伙伴专属认证节点。极克制灰度面板，支持分级定价和信用额度渐进披露。"
+    },
+    {
+      "id": "bulk-inquiry-desk",
+      "name": "批量仪式询价单",
+      "tier": "premium",
+      "description": "多规格批量选配下单中枢。取消凡俗表格，使用仪式感重力清单或手工备注上传附件。"
+    },
+    {
+      "id": "order-tracking-wall",
+      "name": "定制生产轨迹墙",
+      "tier": "editorial",
+      "description": "展现工坊纺线、打板、染色及新月海运轨迹的视觉化深度追踪轨迹板块。"
+    }
+  ],
+  "strictEnforcement": true,
+  "aiComponentGeneration": false,
+  "validationRules": {
+    "maxComponentsPerPage": 8,
+    "minSilenceRatio": 0.65,
+    "forbiddenPatterns": ["card-corners", "gradient-buttons", "popup-modals"]
+  }
+}

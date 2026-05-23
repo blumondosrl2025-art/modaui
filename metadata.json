@@ -1,0 +1,6 @@
+{
+  "name": "V0 Cosmos 世界品牌店生成器",
+  "description": "基于先进人工智能的奇点开店引擎，一句话生成或自定义品牌专属的高奢定制版殿堂级世界品牌店橱窗与系统。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
